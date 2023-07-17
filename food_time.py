@@ -31,7 +31,6 @@ def sex():
 			sex = str(input("Va rog sa introduceti masculin sau feminim ' "))
 		else:
 			return sex
-			break
 
 
 def get_weight():
@@ -107,7 +106,7 @@ def get_user_activity():
 			user_lvl = str(input("Valoare incorecta ! Va rog selectati: 'sedentar', 'usor', 'moderat',  or 'activ' "))
 		else:
 			return user_lvl
-			break
+
 
 
 def get_sedentary(rest_bmr):
